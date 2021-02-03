@@ -1,6 +1,6 @@
 
 
-function OuerServices() {
+function OurServices() {
     return (
         <div className='OurServices'>
             <span className='service'></span>
@@ -9,4 +9,4 @@ function OuerServices() {
     )
 }
 
-export default OuerServices
+export default OurServices
