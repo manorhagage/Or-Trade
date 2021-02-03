@@ -26,6 +26,11 @@
     margin: 2rem auto;
 }
 
+.contact-us .header h1
+{
+    margin: 0;
+}
+
 
 .contact-us .header .title
 {
@@ -36,6 +41,8 @@
 .contact-us .svg
 {
     width: 90%;
+    justify-self: center;
+    align-self: center;
 }
 
 .contact-us .header .title .svg-inline--fa
@@ -52,7 +59,7 @@
 
 .contact-us .header .title .opening-hours
 {
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
