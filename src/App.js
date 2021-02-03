@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import './App.css';
 import { About } from './components/About';
+import { ContactUs } from './components/ContactUs';
 import { Home } from './components/Home';
 import { OurServices } from './components/OurServices';
 
@@ -13,6 +14,7 @@ function App() {
       <Home activePage={activePage} />
       <About />
       <OurServices />
+      <ContactUs />
     </div>
   );
 }
