@@ -5,10 +5,6 @@ import logo from '../../static/logos/logo-full-clean.png'
 import { insertStyleToIframe } from './index'
 
 function Home({activePage}) {
-
-    useEffect(() => {
-        insertStyleToIframe();
-    }, []);
     
     return (
         <div className='home'>
