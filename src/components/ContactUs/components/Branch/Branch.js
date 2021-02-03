@@ -8,14 +8,16 @@ function Branch() {
             </div>
             <div className='data'>
                 <table>
-                    <tr>
-                        <td> Address </td>
-                        <td> Rothschild Street 78, Rishon LeTsiyon </td>
-                    </tr>
-                    <tr>
-                        <td> Phone </td>
-                        <td> 03-9652555 </td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td> Address </td>
+                            <td> Rothschild Street 78, Rishon LeTsiyon </td>
+                        </tr>
+                        <tr>
+                            <td> Phone </td>
+                            <td> 03-9652555 </td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

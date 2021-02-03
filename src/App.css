@@ -21,5 +21,6 @@ body
 
 h1
 {
+    text-align: center;
     color: var(--primary-color);
 }

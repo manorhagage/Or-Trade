@@ -2,3 +2,11 @@
 {
     text-align: center;
 }
+
+.Branches
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem auto;
+}
