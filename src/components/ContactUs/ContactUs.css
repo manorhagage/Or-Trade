@@ -1,7 +1,6 @@
 .contact-us
 {
     position: relative;
-    margin-top: 4rem;
 }
 
 /* .contact-us::before
@@ -23,19 +22,50 @@
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
-    padding: 3rem auto;
+    padding: 3rem;
+    margin: 2rem auto;
 }
 
 
 .contact-us .header .title
 {
-
+    justify-content: center;
+    align-self: center;
 }
 
 .contact-us .svg
 {
     width: 90%;
 }
+
+.contact-us .header .title .svg-inline--fa
+{
+    font-size: 2rem;
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.contact-us .header .title .opening-hours
+{
+    width: 50%;
+    margin: auto;
+}
+
+.contact-us .header .title .opening-hours h2
+{
+    color: var(--secondery-color);
+}
+
+.contact-us .header .title .opening-hours p
+{
+    text-align: left;
+}
+
 
 .Branches
 {
