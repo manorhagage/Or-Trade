@@ -17,7 +17,12 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(var(--primary-color),var(--secondery-color));
-    opacity: 0.3;
+    opacity: 0.15;
+}
+
+.mainHeader
+{
+    display: none;
 }
 
 .top-bar
