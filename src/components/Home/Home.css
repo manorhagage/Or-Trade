@@ -79,12 +79,6 @@
     width: 50%;
 }
 
-.content .welcome-msg h1
-{
-    color: var(--primary-color);
-    text-align: center;
-}
-
 .content .welcome-msg h2
 {
     color: var(--secondery-color);
