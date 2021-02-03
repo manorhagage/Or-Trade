@@ -35,7 +35,12 @@ function Home({activePage}) {
                 <div className='welcome-msg'>
                     <h1>OR Trade</h1>
                     <h1>Finance And Currency</h1>
-                    <h2>We are providing finence and currency <a href='#'>Services</a> with the most powerful and reliable tools on the market.</h2>
+                    <p>
+                        We are providing finence and currency Services with the most powerful and reliable tools on the market.
+                        We are providing finence and currency Services with the most powerful and reliable tools on the market.
+                        We are providing finence and currency Services with the most powerful and reliable tools on the market.
+                        We are providing finence and currency Services with the most powerful and reliable tools on the market.
+                    </p>
                 </div>
                 <iframe id='currency' className='currency-table' src="https://www.widgets.investing.com/live-currency-cross-rates?theme=darkTheme&cols=bid,ask,changePerc,time&pairs=1,1492,1528,64,65,1899,63" ></iframe>
             </div>

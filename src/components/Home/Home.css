@@ -83,15 +83,10 @@
     font-size: 2vw;
 }
 
-.content .welcome-msg h2
+.content .welcome-msg p
 {
     color: var(--secondery-color);
-}
-
-.content .welcome-msg h2 a
-{
-    text-decoration: none;
-    color: var(--secondery-color);
+    font-size: 1rem;
 }
 
 .content .currency-table
