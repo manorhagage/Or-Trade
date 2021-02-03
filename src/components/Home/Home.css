@@ -79,6 +79,11 @@
     width: 50%;
 }
 
+.content .welcome-msg h1
+{
+    font-size: 2rem;
+}
+
 .content .welcome-msg h2
 {
     color: var(--secondery-color);

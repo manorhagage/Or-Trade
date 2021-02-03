@@ -1,6 +1,7 @@
 .contact-us
 {
     position: relative;
+    margin-top: 4rem;
 }
 
 /* .contact-us::before
@@ -16,18 +17,24 @@
     clip-path: polygon(0 100%,0% 0%,130% 0%,9% 15%);
 } */
 
-.contact-us .title
+.contact-us .header
 {
     position: relative;
     text-align: center;
     display: grid;
-    grid-template-columns: (2 ,1fr);
+    grid-template-columns: repeat(2 ,1fr);
     padding: 3rem auto;
+}
+
+
+.contact-us .header .title
+{
+
 }
 
 .contact-us .svg
 {
-    width: 50%;
+    width: 90%;
 }
 
 .Branches
