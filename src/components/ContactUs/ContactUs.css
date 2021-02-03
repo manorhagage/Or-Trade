@@ -1,6 +1,33 @@
 .contact-us
 {
+    position: relative;
+}
+
+/* .contact-us::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    background-image: linear-gradient( 45deg ,var(--secondery-light-color),var(--secondery-color) 80%);
+    clip-path: polygon(0 100%,0% 0%,130% 0%,9% 15%);
+} */
+
+.contact-us .title
+{
+    position: relative;
     text-align: center;
+    display: grid;
+    grid-template-columns: (2 ,1fr);
+    padding: 3rem auto;
+}
+
+.contact-us .svg
+{
+    width: 50%;
 }
 
 .Branches

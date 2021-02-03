@@ -5,6 +5,7 @@
 {
     --primary-color: #00B1A6;
     --secondery-color: #7A7D7D;
+    --secondery-light-color: #c4c4c4;
 }
 
 *
@@ -23,4 +24,5 @@ h1
 {
     text-align: center;
     color: var(--primary-color);
+    font-size: 3rem;
 }
