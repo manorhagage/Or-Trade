@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import './App.css';
-import About from './components/About/About';
+import { About } from './components/About';
 import { Home } from './components/Home';
-import OurServices from './components/OurServices/OurServices';
+import { OurServices } from './components/OurServices';
 
 function App() {
   const [activePage, setActivePage] = useState('Home');
