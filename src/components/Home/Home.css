@@ -70,7 +70,6 @@
 {
     display: flex;
     justify-content: space-between;
-    height: 50%;
     padding: 5vh 10vw;
 }
 
@@ -99,4 +98,25 @@
 {
     width: 45%;
     border: none;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .content
+    {
+        display: block;
+        margin: auto;
+    }
+
+    .content .welcome-msg 
+    {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .content .currency-table 
+    {
+        width: 100%;
+        margin: 2rem auto;
+    }
 }
