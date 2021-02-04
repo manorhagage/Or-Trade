@@ -1,6 +1,10 @@
 
 .home
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     min-height: 100vh;
     background: url(../../static/BG.jpg);
     background-position: center;

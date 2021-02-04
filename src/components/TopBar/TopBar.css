@@ -1,11 +1,22 @@
 
 .top-bar
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+    height: 12vh;
+    padding: 1vh 10vw;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    height: 22vh;
-    padding: 5vh 10vw;
+    z-index: 999;
+}
 
+.top-bar .logo
+{
+    height: 100%;
 }
 
 .top-bar .nav
@@ -27,6 +38,7 @@
 {
     display: inline-block;
     position: relative;
+    cursor: pointer;
 }
 
 .top-bar .nav ul li:hover
@@ -71,6 +83,7 @@
 .top-bar .nav-mobile ul li
 {
    padding: 1rem;
+   cursor: pointer;
 }
 
 .top-bar .nav-mobile ul li:hover
