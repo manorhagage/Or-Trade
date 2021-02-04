@@ -6,21 +6,15 @@ import { ContactUs } from './components/ContactUs';
 import { Home } from './components/Home';
 import { OurServices } from './components/OurServices';
 
-import { scrolToElement } from './function'
+
 
 function App() {
-	const [activePage, setActivePage] = useState('home');
-    
-    function navClickEvent(value)
-    {
-        setActivePage(value);
 
-        scrolToElement('.' + value);
-    } 
+	const [activePage, setActivePage] = useState('home');
 
     return (
       <div className="App">
-        <Home activePage={activePage} navClickEvent={navClickEvent}/>
+        <Home activePage={activePage} />
         <About />
         <OurServices />
         <ContactUs />
