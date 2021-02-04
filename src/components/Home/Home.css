@@ -45,13 +45,13 @@
 
 .content .welcome-msg h1
 {
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .content .welcome-msg p
 {
     color: var(--secondery-color);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .content .currency-table
@@ -78,5 +78,6 @@
     {
         width: 100%;
         margin: 2rem auto;
+        height: 40vh;
     }
 }

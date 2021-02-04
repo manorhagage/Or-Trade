@@ -78,6 +78,7 @@
     width: 20vw;
     text-align: center;
     right: 10%;
+    top: 0;
 }
 
 .top-bar .nav-mobile ul li
@@ -116,6 +117,11 @@
 
 @media only screen and (max-width: 800px) 
 {
+    .top-bar
+    {
+        height: 5vh;
+    }
+
     .top-bar .nav
     {
         display: none;
@@ -124,5 +130,10 @@
     .top-bar .nav-mobile
     {
         display: block;
+    }
+    
+    .top-bar .nav-mobile svg
+    {
+            font-size: 1.5rem;
     }
 }
