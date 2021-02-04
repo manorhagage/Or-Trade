@@ -4,7 +4,7 @@ import './Home.css';
 import logo from '../../static/logos/logo-full-clean.png'
 import { insertStyleToIframe } from './index'
 
-function Home({activePage}) {
+function Home({ activePage, navClickEvent }) {
     
     return (
         <div className='home'>
@@ -12,16 +12,16 @@ function Home({activePage}) {
                 <img className='logo' src={logo} />
                 <div className='nav'>
                     <ul>
-                        <li className={activePage == 'Home' ? 'active' : '' }>
+                        <li className={activePage == 'home' ? 'active' : '' } >
                             Home
                         </li>
-                        <li className={activePage == 'About' ? 'active' : '' }>
+                        <li className={activePage == 'about' ? 'active' : '' }>
                             About
                         </li>
-                        <li className={activePage == 'Our Services' ? 'active' : '' }>
+                        <li className={activePage == 'our-services' ? 'active' : '' }>
                             Our Services
                         </li>
-                        <li className={activePage == 'Contact Us' ? 'active' : '' }>
+                        <li className={activePage == 'contact-us' ? 'active' : '' }>
                             Contact Us
                         </li>
                     </ul>
