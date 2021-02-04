@@ -7,5 +7,5 @@ function _( selector )
 
 export function scrollToElement(element)
 {
-    _(element).scrollIntoView();
+    _('.' + element).scrollIntoView();
 }

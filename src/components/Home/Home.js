@@ -1,13 +1,11 @@
 import { useEffect } from 'react';
 
 import './Home.css';
-import { TopBar } from './components/TopBar';
 
-function Home({ activePage }) {
+function Home() {
     
     return (
         <div className='home'>
-            <TopBar activePage={activePage} />
             <div className='content'>
                 <div className='welcome-msg'>
                     <h1>OR Trade</h1>
