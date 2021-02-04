@@ -3,7 +3,7 @@ import './ContactUs.css';
 import ContactUsSvg from '../../static/contact-us-2.svg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faPhone, faMailBulk } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 function ContactUs() {;
     return (
